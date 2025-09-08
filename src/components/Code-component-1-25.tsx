@@ -34,7 +34,7 @@ export function Dashboard({ users }: DashboardProps) {
     <div className="p-6 space-y-6">
       <div className="flex items-center gap-2 mb-6">
         <Users className="h-6 w-6" />
-        <h1>User Dashboard</h1>
+        <h1>zymr assignment dashboard</h1>
       </div>
 
       {/* KPI Cards */}
@@ -186,7 +186,7 @@ export function Dashboard({ users }: DashboardProps) {
 
         {/* Recently Joined Users */}
         <Card className="p-6">
-          <h3 className="mb-4">Recently Joined Users</h3>
+          <h3 className="mb-4">Recently Joined Users (Fresh 5 users)</h3>
           <div className="space-y-4">
             {stats.recentUsers.map((user) => (
               <div key={user.id} className="flex items-center gap-4 p-3 rounded-lg bg-muted/30">

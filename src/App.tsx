@@ -99,8 +99,7 @@ export default function App() {
       <footer className="border-t bg-card mt-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-12 text-sm text-muted-foreground">
-            <p>User Analytics Dashboard</p>
-            <p>API: MockAPI.io</p>
+            <p>User-Dashboard-For-Zymr-tech by PRANIT_LAWARE_8605322507</p>
           </div>
         </div>
       </footer>
